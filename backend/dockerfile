@@ -1,0 +1,7 @@
+FROM node:14.3.0-alpine
+ENV NODE_ENV=prod
+COPY . /var/www
+WORKDIR /var/www
+RUN npm install 
+ENTRYPOINT ["npm", "start"]
+EXPOSE 3000
