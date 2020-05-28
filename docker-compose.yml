@@ -29,8 +29,8 @@ services:
 
   backend-server:
     build:
-      dockerfile: ./backend/dockerfile
-      context: .
+      context: ./backend
+      dockerfile: dockerfile
     container_name: backend-server
     ports:
       - "3000"
