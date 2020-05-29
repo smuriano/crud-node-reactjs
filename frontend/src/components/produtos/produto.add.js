@@ -37,7 +37,7 @@ const ProdutoAdd = () => {
         console.log(res.data.success);
         console.log(res.data.data);
 
-        history.push('/produtos');
+        history.go(-1);
       })
       .catch(err => { console.log(err); })
   }

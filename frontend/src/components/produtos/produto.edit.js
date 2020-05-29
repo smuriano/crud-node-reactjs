@@ -37,7 +37,7 @@ const ProdutoEdit = props => {
     ProdutoDataService.update(produto._id, produto)
       .then(res => {
         console.log(res.data);
-        history.push('/produtos');
+        history.go(-1);
       })
       .catch(err => { console.log(err); });
   };
