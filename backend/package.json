@@ -1,6 +1,6 @@
 {
   "name": "crud-produtos",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Backend(API) do CRUD de Produtos",
   "main": "index.js",
   "scripts": {
